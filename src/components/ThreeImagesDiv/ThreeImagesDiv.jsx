@@ -2,13 +2,13 @@ import { SectionContainer, SectionItem, Image, Text} from "./ThreeImagesDiv.styl
 import image1 from './../../assets/fart1.jpg'
 import image2 from './../../assets/fart2.jpg'
 import image3 from './../../assets/fart3.jpg'
-
+import books1 from './../../assets/books1.jpeg'
 
 const Section = () => {
     return (
       <SectionContainer>
         <SectionItem>
-          <Image src={image1} alt="Image 1" />
+          <Image src={books1} alt="Image 1" />
           <Text>続けやすい価格</Text>
         </SectionItem>
         <SectionItem>

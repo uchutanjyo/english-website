@@ -3,9 +3,12 @@ import styled from 'styled-components';
 export const SectionContainer = styled.section`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4rem 0;
+  justify-content: center;
+  padding: 4rem 2rem;
+  /* background-color: red; */
+  margin-top:1em;
+  margin-bottom:1em;
+
 `;
 
 export const ImageContainer = styled.div`
@@ -14,13 +17,16 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 39em;
   /* max-width: 400px; */
-  height: auto;
+  height: 40em;
 `;
 
 export const TextContainer = styled.div`
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
 `;
 
 export const Header = styled.h2`
@@ -29,8 +35,6 @@ export const Header = styled.h2`
 `;
 
 export const Text = styled.p`
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
 `;
 
 export const Button = styled.button`
@@ -46,3 +50,25 @@ export const Button = styled.button`
     background-color: #0056b3;
   }
 `;
+
+export const ListContainer = styled.ul`
+  list-style: none;
+  padding-left: 0;
+`;
+
+export const ListItem = styled.li`
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 0.1rem; */
+
+`;
+
+export const Container = styled.div`
+  width: 25em;
+  /* background-color: whitesmoke; */
+  color: whitesmoke;
+  /* font-size: 2em; */
+  padding: 1em;
+  /* height: 17em */
+`;
+

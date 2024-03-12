@@ -1,21 +1,26 @@
-import { SectionContainer, ImageContainer, Image, TextContainer, Button, Header, Text} from "./ImageLeftTextRight.styles";
-import image1 from './../../assets/fart1.jpg'
+import { SectionContainer, ImageContainer, Image, ListItem, TextContainer, Container, Button, Header, ListContainer, Text} from "./ImageLeftTextRight.styles";
 
 
-const ImageLeftTextRight = () => {
+const ImageLeftTextRight = ({header, buttonText, bulletPoints, image, alt}) => {
   return (
+    
     <SectionContainer>
       <ImageContainer>
-        <Image src={image1} alt="Image" />
+        <Image src={image} alt={alt} />
       </ImageContainer>
       <TextContainer>
-        <Header>Header Text</Header>
-        <Text>Text 1</Text>
-        <Text>Text 2</Text>
-        <Text>Text 3</Text>
-        <Text>Text 4</Text>
-        <Text>Text 5</Text>
-        <Button>Button</Button>
+      <Container>
+        <Header>{header}</Header>
+        <ListContainer>
+          {bulletPoints.map((point, index) => (
+            <ListItem key={index}>
+              {/* <Checkmark /> */}
+              <Text>{point}</Text>
+            </ListItem>
+          ))}
+        </ListContainer>
+        <Button>{buttonText}</Button>
+      </Container>
       </TextContainer>
     </SectionContainer>
   );
