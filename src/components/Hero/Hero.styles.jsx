@@ -11,28 +11,27 @@ justify-content: center;
   padding: 4rem 2rem;
   text-align: center;
   width: 100vw;
-  height: 60vh;
-  top: 0;
-  background-image: url(${students});
+  /* top: 0; */
+  background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(${students});
   background-size: cover;
+  height: 65vh;
+  color: ${props => props.theme.colors.text};
 
 `;
 
 
 export const Header = styled.h1`
   font-size: 3rem;
-  color: #333;
   margin-bottom: 1rem;
 `;
 
 export const Blurb = styled.p`
   font-size: 1.2rem;
-  color: #666;
   margin-bottom: 2rem;
 `;
 
 export const HeroButton = styled.button`
-  background-color: #007bff;
+  background-color: ${props => props.theme.colors.button};
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -41,6 +40,6 @@ export const HeroButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #656769;
   }
 `;

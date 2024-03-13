@@ -26,8 +26,8 @@ const Home = ({}) => {
       <ImageLeftTextRight header={'英会話コース'} buttonText={'始めてみよう'} 
         bulletPoints={['✓ スピーキングとライティングの個別添削', '✓ 高得点を狙える', '✓ IELTSの攻略法', '✓ 効率よく高得点']}
         image={books1} alt={'Books!'}/>
-      <ImageLeftTextRight header={'IELTSコース'} buttonText={'始めてみよう'} 
-        bulletPoints={['✓ スピーキングとライティングの個別添削', '✓ 高得点を狙える', '✓ IELTSの攻略法', '✓ 効率よく高得点']}
+      <ImageLeftTextRight header={'TOEICコース'} buttonText={'始めてみよう'} 
+        bulletPoints={['✓ TOEICで高得点を目指している方', '✓ 目標スコアの達成に時間がかかっている方', '✓  短期間でスコアアップしたい方', '✓ スコアのための勉強の仕方が分からない方']}
         image={books2} alt={'Books!'}/>
       <ImageLeftTextRight header={'IELTSコース'} buttonText={'始めてみよう'} 
         bulletPoints={['✓ スピーキングとライティングの個別添削', '✓ 高得点を狙える', '✓ IELTSの攻略法', '✓ 効率よく高得点']}

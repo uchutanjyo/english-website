@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 25em;
-  background-color: whitesmoke;
-  color: black;
+  background-color: ${props => props.theme.colors.secondary};
+
+  color: ${props => props.theme.colors.text};
   /* font-size: 2em; */
   padding: 1em;
   height: 17em
@@ -21,8 +22,8 @@ export const Subheader = styled.p`
 `;
 
 export const Button = styled.button`
-  background-color: #007bff;
-  color: black;
+  background-color: ${props => props.theme.colors.button};
+  color: ${props => props.theme.colors.buttonText};
   border: none;
   padding: 1rem 2rem;
   font-size: 1rem;
@@ -30,7 +31,7 @@ export const Button = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #656769;
   }
 `;
 

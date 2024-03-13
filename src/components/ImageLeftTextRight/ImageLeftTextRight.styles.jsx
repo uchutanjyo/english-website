@@ -5,7 +5,6 @@ export const SectionContainer = styled.section`
   align-items: center;
   justify-content: center;
   padding: 4rem 2rem;
-  /* background-color: red; */
   margin-top:1em;
   margin-bottom:1em;
 
@@ -38,7 +37,7 @@ export const Text = styled.p`
 `;
 
 export const Button = styled.button`
-  background-color: #007bff;
+  color: ${props => props.theme.colors.button};
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -66,7 +65,7 @@ export const ListItem = styled.li`
 export const Container = styled.div`
   width: 25em;
   /* background-color: whitesmoke; */
-  color: whitesmoke;
+  color: ${props => props.theme.colors.text};
   /* font-size: 2em; */
   padding: 1em;
   /* height: 17em */

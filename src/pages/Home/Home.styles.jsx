@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const HomeWrapper = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
   width: 98%;
-  height: 200em;
-  top: 0;
-  color: white
+  /* top: 0; */
+  color: ${props => props.theme.colors.text};
+  background-color: ${props => props.theme.colors.background};
     /* @media (max-width: 1000px) {
       display: flex;
     flex-direction: column;

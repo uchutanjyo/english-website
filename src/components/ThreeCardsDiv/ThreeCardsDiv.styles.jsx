@@ -20,5 +20,5 @@ export const CardHolder = styled.div`
 
 export const Text = styled.p`
   font-size: 1.2rem;
-  color: white;
+  color: ${props => props.theme.colors.text};
 `;
