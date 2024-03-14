@@ -7,6 +7,7 @@ export const SectionContainer = styled.section`
   padding: 4rem 2rem;
   margin-top:1em;
   margin-bottom:1em;
+  width: 77vw
 
 `;
 
@@ -46,7 +47,7 @@ export const Button = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #656769;
   }
 `;
 

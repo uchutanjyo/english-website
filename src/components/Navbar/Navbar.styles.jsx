@@ -4,10 +4,10 @@ export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
 
-  background-color: #333;
-  color: white;
+  background-color: ${props => props.theme.colors.background};
+  color: ${props => props.theme.colors.text};
   width: 100vw;
   top:0;
   left: 0;
@@ -23,4 +23,5 @@ export const NavLink = styled.a`
   text-decoration: none;
   color: inherit;
   margin-left: 1rem;
+  
 `;

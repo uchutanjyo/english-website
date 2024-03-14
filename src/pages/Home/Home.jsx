@@ -4,6 +4,7 @@ import ThreeImagesDiv from "../../components/ThreeImagesDiv/ThreeImagesDiv.jsx";
 import ImageLeftTextRight from "../../components/ImageLeftTextRight/ImageLeftTextRight.jsx";
 import PriceDiv from "../../components/PriceDiv/PriceDiv.jsx";
 import ThreeCardsDiv from "../../components/ThreeCardsDiv/ThreeCardsDiv.jsx";
+import ImageGrid from "../../components/ImageGrid/ImageGrid.jsx";
 import books1 from "../../assets/books1.jpeg"
 import books2 from "../../assets/books2.jpeg"
 import books3 from "../../assets/books3.jpeg"
@@ -34,6 +35,7 @@ const Home = ({}) => {
         image={books3} alt={'Books!'}/>
       <PriceDiv/>
       <ThreeCardsDiv />
+     <ImageGrid />
       </HomeWrapper>
 
 );

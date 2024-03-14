@@ -4,14 +4,14 @@ import { SectionContainer, BulletList, BulletListItem, Button, Header, Subheader
 const PriceDiv = () => {
     return (
       <SectionContainer>
-        <Header>Main Header</Header>
-        <Subheader>Sub Header</Subheader>
+        <Header>初回30分レッスン</Header>
+        <Subheader>０円</Subheader>
         <BulletList>
-          <BulletListItem>Bullet Point 1</BulletListItem>
-          <BulletListItem>Bullet Point 2</BulletListItem>
-          <BulletListItem>Bullet Point 3</BulletListItem>
+          <BulletListItem>・無料カウンセリング</BulletListItem>
+          <BulletListItem>・無料レッスン</BulletListItem>
+          <BulletListItem>・無料で英語力診断</BulletListItem>
         </BulletList>
-        <Button>Click Me</Button>
+        <Button>始めてみる</Button>
       </SectionContainer>
     );
   };

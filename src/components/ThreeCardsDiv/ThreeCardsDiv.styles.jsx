@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const SectionContainer = styled.section`
   display: flex;
-  justify-content: center;
-  /* padding: 4rem 8rem; */
-  /* width: 100vw */
+  /* justify-content: space-between; */
+   /*
+  */
+  /* background-color: red; */
 `;
 
 export const SectionItem = styled.div`
@@ -15,7 +16,7 @@ export const SectionItem = styled.div`
 export const CardHolder = styled.div`
 
   margin-bottom: 1rem;
-  margin-right: 3em
+  /* margin-right: 3em */
 `;
 
 export const Text = styled.p`

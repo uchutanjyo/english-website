@@ -4,7 +4,7 @@ const Hero = () => {
     return (
        
       <HeroContainer>
-        <Header>Welcome to Our Website</Header>
+        <Header>Elevation English School</Header>
         <Blurb>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium lectus id purus pulvinar.</Blurb>
         <HeroButton>Learn More</HeroButton>
       </HeroContainer>

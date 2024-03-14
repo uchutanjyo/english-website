@@ -2,13 +2,15 @@ import styled from 'styled-components';
 // import { FaCheck } from 'react-icons/fa';
 
 export const Container = styled.div`
-  width: 25em;
+  width: 26em;
   background-color: ${props => props.theme.colors.secondary};
 
   color: ${props => props.theme.colors.text};
   /* font-size: 2em; */
-  padding: 1em;
-  height: 17em
+  padding: 1.5em;
+  height: 17em;
+  margin: 1.5em;
+
 `;
 
 export const Header = styled.h2`
@@ -46,11 +48,6 @@ export const ListItem = styled.li`
   margin-bottom: 0.5rem;
 
 `;
-
-// export const Checkmark = styled(FaCheck)`
-//   color: #007bff;
-//   margin-right: 0.5rem;
-// `;
 
 export const Text = styled.span`
   font-size: .6rem;

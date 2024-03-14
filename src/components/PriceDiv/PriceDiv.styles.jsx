@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SectionContainer = styled.section`
   width: 100%;
   /* background-color: #f0f0f0; */
-  padding: 4rem 2rem;
+  padding: 8rem 2rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -12,14 +12,14 @@ export const SectionContainer = styled.section`
   align-items: center;
 `;
 
-export const Header = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+export const Header = styled.section`
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 `;
 
-export const Subheader = styled.h3`
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+export const Subheader = styled.section`
+  font-size: 4em;
+  margin-bottom: 0.5rem;
 `;
 
 export const BulletList = styled.ul`
@@ -34,7 +34,7 @@ export const BulletListItem = styled.li`
 `;
 
 export const Button = styled.button`
-  background-color: #007bff;
+  background-color: ${props => props.theme.colors.button};
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -43,6 +43,6 @@ export const Button = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #656769;
   }
 `;
