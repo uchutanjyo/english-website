@@ -5,6 +5,8 @@ import ImageLeftTextRight from "../../components/ImageLeftTextRight/ImageLeftTex
 import PriceDiv from "../../components/PriceDiv/PriceDiv.jsx";
 import ThreeCardsDiv from "../../components/ThreeCardsDiv/ThreeCardsDiv.jsx";
 import ImageGrid from "../../components/ImageGrid/ImageGrid.jsx";
+import Testimonials from "../../components/Testimonials/Testimonials.jsx";
+import FormSection from "../../components/FormSection/FormSection.jsx";
 import books1 from "../../assets/books1.jpeg"
 import books2 from "../../assets/books2.jpeg"
 import books3 from "../../assets/books3.jpeg"
@@ -36,6 +38,8 @@ const Home = ({}) => {
       <PriceDiv/>
       <ThreeCardsDiv />
      <ImageGrid />
+     <Testimonials/>
+     <FormSection/>
       </HomeWrapper>
 
 );
