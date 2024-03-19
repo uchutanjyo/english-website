@@ -5,6 +5,7 @@ export const Container = styled.div`
   /* height: 100vh; */
   width: 75vw;
   padding: 2rem 2rem;
+  
 `;
 
 export const LeftSection = styled.div`

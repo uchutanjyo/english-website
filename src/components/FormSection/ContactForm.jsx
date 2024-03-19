@@ -1,6 +1,8 @@
 import  { useState, useRef } from "react";
 
 import emailjs from "emailjs-com";
+import { Form, Input,TextArea, Button } from './ContactForm.styles'
+
 
 const ContactForm = ({ children }) => {
   const form = useRef();
@@ -14,30 +16,28 @@ const ContactForm = ({ children }) => {
       form.current,
       "CNPOcX_lOqJC8MPax"
     );
-    alert("Your email has been sent.");
-    form.current
-      .reset()
-      .then((result) => {
-        console.log(result);
-      })
-      .catch((err) => console.log(err));
+    alert("Your email has been sent.")
+      // .then((result) => {
+      //   console.log(result);
+      // })
+      // .catch((err) => console.log(err));
   };
 
   return (
     <>
-      <form ref={form} className="contact" action="submit">
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="user_name" />
-        <label htmlFor="name">E-mail address</label>
-        <input type="text" id="email" name="user_email" />
-        <label htmlFor="name" name="message">
+      <Form ref={form} className="contact" action="submit">
+        {/* <label htmlFor="name">Name</label> */}
+        <Input type="text" id="name" name="user_name" />
+        {/* <label htmlFor="name">E-mail address</label> */}
+        <Input type="text" id="email" name="user_email" />
+        {/* <label htmlFor="name" name="message">
           Message
-        </label>
-        <textarea rows="10" id="message" name="message" />
-        <button action="submit" onClick={handleSubmit}>
+        </label> */}
+        <TextArea rows="10" id="message" name="message" />
+        <Button action="submit" onClick={handleSubmit}>
           Submit
-        </button>
-      </form>
+        </Button>
+      </Form>
 
       <div className="hidden"></div>
     </>

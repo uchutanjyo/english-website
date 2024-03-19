@@ -1,5 +1,5 @@
 
-import { Container, LeftSection, RightSection, Subsection,HorizontalSection, Paragraph, SmallText} from "./FormSection.styles copy";
+import { Container, LeftSection, RightSection, Subsection,HorizontalSection, Paragraph, SmallText} from "./FormSection.styles";
 import ContactForm from "./ContactForm";
 
 const FormSection = () => {

@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  /* height: 100vh; */
   width: 75vw;
-  padding: 2rem 2rem;
+
+  /* padding: 2rem 2rem; */
+  /* justify-content: center;
+  align-items: center; */
 `;
 
 export const LeftSection = styled.div`
