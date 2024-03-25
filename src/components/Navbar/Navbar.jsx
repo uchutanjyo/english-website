@@ -1,9 +1,9 @@
-import { NavLink, NavbarContainer, NavbarLinks } from "./Navbar.styles";
+import { NavLink, NavbarContainer, NavbarLinks, Title } from "./Navbar.styles";
 
 const Navbar = () => {
     return (
       <NavbarContainer>
-        <div>English Elevation School</div>
+        <Title>English Elevation School</Title>
         <NavbarLinks>
           <NavLink href="#">About</NavLink>
           <NavLink href="#">Course & Price</NavLink>

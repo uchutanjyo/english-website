@@ -10,11 +10,18 @@ export const SectionContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 360px) {
+    padding: 0rem;
+    width:auto
+    }
 `;
 
 export const Header = styled.section`
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  @media (max-width: 360px) {
+    font-size: 2rem
+    }
 `;
 
 export const Subheader = styled.section`
@@ -26,7 +33,12 @@ export const BulletList = styled.ul`
   list-style-type: none;
   text-align: left;
   margin-bottom: 2rem;
-  margin-right: 2em
+  margin-right: 2em;
+  @media (max-width: 360px) {
+    padding: 0rem;
+    margin-right: 0em;
+
+    }
 `;
 
 export const BulletListItem = styled.li`

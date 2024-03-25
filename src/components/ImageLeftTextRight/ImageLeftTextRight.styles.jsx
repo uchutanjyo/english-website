@@ -7,19 +7,29 @@ export const SectionContainer = styled.section`
   padding: 4rem 2rem;
   margin-top:1em;
   margin-bottom:1em;
-  width: 77vw
-
+  width: 77vw;
+    @media (max-width: 360px) {
+padding: 0rem;
+flex-direction:column}
 `;
 
 export const ImageContainer = styled.div`
   flex: 1;
   margin-right: 5rem;
+  @media (max-width: 360px) 
+  {
+    margin-right:0rem    
+    }
 `;
 
 export const Image = styled.img`
   width: 39em;
   /* max-width: 400px; */
   height: 40em;
+   @media (max-width: 360px) {
+    max-width: 10em;
+    max-height: 8em
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -70,5 +80,9 @@ export const Container = styled.div`
   /* font-size: 2em; */
   padding: 1em;
   /* height: 17em */
+  @media (max-width: 360px) {
+    padding: 0rem;
+    width: auto
+    }
 `;
 

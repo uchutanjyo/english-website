@@ -10,7 +10,10 @@ export const Container = styled.div`
   padding: 1.5em;
   height: 17em;
   margin: 1.5em;
-
+  @media (max-width: 360px) {
+    padding: 0rem;
+    margin: 0rem
+    }
 `;
 
 export const Header = styled.h2`

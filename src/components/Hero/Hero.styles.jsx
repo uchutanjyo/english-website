@@ -16,7 +16,9 @@ justify-content: center;
   background-size: cover;
   height: 65vh;
   color: ${props => props.theme.colors.text};
-
+  @media (max-width: 360px) {
+    padding: 0rem;
+  }
 `;
 
 

@@ -5,6 +5,10 @@ export const SectionContainer = styled.section`
   /* justify-content: space-around; */
   padding: 4rem 8rem;
   width: 80vw;
+  @media (max-width: 360px) {
+    padding: 0rem;
+    flex-direction: column;
+  }
 `;
 
 export const SectionItem = styled.div`
@@ -16,11 +20,16 @@ export const SectionItem = styled.div`
 export const Image = styled.img`
   width: 27em;
   height: 22em;
-    /* max-width: 200px; */
+
 
   /* border-radius: 50%; */
   margin-bottom: 1rem;
-  margin-right: 3em
+  margin-right: 3em;
+  @media (max-width: 360px) {
+    max-width: 10em;
+    max-height: 7em;
+    margin-right: 0em
+  }
 `;
 
 export const Text = styled.p`

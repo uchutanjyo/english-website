@@ -17,4 +17,7 @@ align-items: center;
     width: 100%;
 
   } */
+  @media (max-width: 360px) {
+  
+  }
 `;
