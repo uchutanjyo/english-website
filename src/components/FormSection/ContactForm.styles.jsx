@@ -8,7 +8,10 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: right;
   background-color: ${props => props.theme.colors.secondary};
-  width: 75%
+  width: 75%;
+  @media (max-width: 480px) {
+    width: 100%;
+    }
 `;
 
 export const Input = styled.input`

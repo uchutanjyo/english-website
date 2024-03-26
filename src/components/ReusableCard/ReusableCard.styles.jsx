@@ -7,12 +7,15 @@ export const Container = styled.div`
 
   color: ${props => props.theme.colors.text};
   /* font-size: 2em; */
-  padding: 1.5em;
+  padding: 1.2em;
   height: 17em;
   margin: 1.5em;
-  @media (max-width: 360px) {
-    padding: 0rem;
-    margin: 0rem
+  @media (max-width: 480px) {
+    padding: 1rem;
+    margin: 0rem;
+    width:17em;
+    
+    height: 18em;
     }
 `;
 

@@ -4,9 +4,10 @@ export const Container = styled.div`
   display: flex;
   width: 75vw;
 
-  /* padding: 2rem 2rem; */
-  /* justify-content: center;
-  align-items: center; */
+  @media (max-width: 480px) {
+    padding: 0rem;
+    flex-direction: column;
+    }
 `;
 
 export const LeftSection = styled.div`

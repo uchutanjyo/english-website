@@ -12,17 +12,17 @@ export const NavbarContainer = styled.nav`
   left: 0;
   position: fixed;
 
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     flex-direction: column;
     padding: 0rem;
-    max-width: 50px
+    /* max-width: 50px */
   }
 `;
 
 export const Title = styled.div`
 
 
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
 display: hidden
   }
 `;
@@ -31,7 +31,7 @@ export const NavbarLinks = styled.div`
   display: flex;
   margin-right: 3rem;
 
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     margin-right: 0;
     margin-top: 1rem;
   }
@@ -42,7 +42,7 @@ export const NavLink = styled.a`
   color: inherit;
   margin-left: 1rem;
 
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     margin-left: 0;
     margin-top: 1rem;
   }

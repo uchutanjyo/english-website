@@ -6,7 +6,7 @@ export const SectionContainer = styled.section`
    /*
   */
   /* background-color: red; */
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
   flex-direction: column;
 }
 `;

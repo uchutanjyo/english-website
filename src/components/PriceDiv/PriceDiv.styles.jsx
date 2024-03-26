@@ -10,16 +10,18 @@ export const SectionContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     padding: 0rem;
-    width:auto
+    width:auto;
+    margin-top: 3em;
+    margin-bottom: 4em;
     }
 `;
 
 export const Header = styled.section`
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     font-size: 2rem
     }
 `;
@@ -34,10 +36,10 @@ export const BulletList = styled.ul`
   text-align: left;
   margin-bottom: 2rem;
   margin-right: 2em;
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     padding: 0rem;
     margin-right: 0em;
-
+  
     }
 `;
 

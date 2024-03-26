@@ -18,6 +18,7 @@ justify-content: center;
   color: ${props => props.theme.colors.text};
   @media (max-width: 360px) {
     padding: 0rem;
+    height: 82vh
   }
 `;
 
@@ -25,11 +26,21 @@ justify-content: center;
 export const Header = styled.h1`
   font-size: 3rem;
   margin-bottom: 1rem;
+  @media (max-width: 480px) 
+  {
+    margin-top: 3em;
+    font-size: 2em;
+    }
 `;
 
 export const Blurb = styled.p`
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  @media (max-width: 480px) 
+  {
+    font-size: 0.8em;
+
+    }
 `;
 
 export const HeroButton = styled.button`

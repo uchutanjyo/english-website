@@ -5,25 +5,35 @@ export const Container = styled.div`
   /* height: 100vh; */
   width: 75vw;
   padding: 2rem 2rem;
-  @media (max-width: 360px) {
-    padding: 0rem
+  @media (max-width: 480px) {
+    padding: 0rem;
+    flex-direction: column;
     }
 `;
 
 export const LeftSection = styled.div`
   flex: 1;
   display: flex;
-  font-size: 3em
+  font-size: 3em;
+  @media (max-width: 480px) {
+    padding: 0rem;
+    flex-direction: column;
+    }
 `;
 
 export const RightSection = styled.div`
   flex: 2;
   display: flex;
   flex-direction: column;
+  
 `;
 
 export const HorizontalSection = styled.div`
-    display: flex
+    display: flex;
+    @media (max-width: 480px) {
+    padding: 0rem;
+    flex-direction: column;
+    }
 
 `
 export const Subsection = styled.div`

@@ -5,9 +5,13 @@ export const SectionContainer = styled.section`
   /* justify-content: space-around; */
   padding: 4rem 8rem;
   width: 80vw;
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     padding: 0rem;
     flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 2rem
+
   }
 `;
 
@@ -20,14 +24,16 @@ export const SectionItem = styled.div`
 export const Image = styled.img`
   width: 27em;
   height: 22em;
+  
 
 
   /* border-radius: 50%; */
   margin-bottom: 1rem;
   margin-right: 3em;
-  @media (max-width: 360px) {
-    max-width: 10em;
-    max-height: 7em;
+  @media (max-width: 480px) {
+    max-width: 18em;
+    max-height: 15em;
+    min-width: 19em;
     margin-right: 0em
   }
 `;
